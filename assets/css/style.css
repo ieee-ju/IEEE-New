@@ -12,6 +12,7 @@ body {
     color: white;
 }
 
+
 a {
     color: #0066A1;
 }
@@ -30,6 +31,9 @@ h6 {
     font-family: "Roboto", sans-serif;
 }
 
+i:hover {
+    transform: scale(1.03);
+}
 
 /*--------------------------------------------------------------
 # Preloader
