@@ -243,11 +243,19 @@
 
     //Night-mode-toggle
     $(" .icofont-moon").click(function () {
+        $("h3").css("color", "white");
+        $("p").css("color", "white");
         $("body").addClass("dark-mode");
-    });
+        $("div.black-dark").css("color", "black");
+        $("p.black-dark").css("color", "black");
+        
+    });  
 
     $(" .icofont-sun-alt").click(function () {
         $("body").removeClass("dark-mode");
+        $("h3").css("color", "#444444");
+        $("p").css("color", "#444444");
+        
     });
 
 
